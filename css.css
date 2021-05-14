@@ -1,0 +1,13 @@
+
+body {
+    font-family: system-ui;
+    background: #f06d06;
+    color: white;
+    text-align: center;
+  }
+
+
+.inputTodoList h1  {
+    display: block;
+    width: 20px;
+}
