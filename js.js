@@ -2,13 +2,14 @@ let todo = [];
 let inputValue = document.getElementById('inputTodoList');
 function myFunc() {
     todo.unshift(inputValue.value);
-    var h1 = document.createElement('h1');
+    var h1 = document.createElement('h2');
     h1.innerHTML = todo[0];
     document.body.appendChild(h1);
     var button = document.createElement('button');
     button.setAttribute('id', 'buttonTodoList');
     button.innerHTML = 'Xoá';
     button.setAttribute('onclick', 'CheckList()');
+    button.setAttribute('class', 'buttonDelete');
     document.body.appendChild(button);
 }
 

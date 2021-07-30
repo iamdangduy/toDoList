@@ -1,11 +1,10 @@
 
 body {
     font-family: system-ui;
-    background: #f06d06;
+    background: lightblue;
     color: white;
     text-align: center;
   }
-
 
 .inputTodoList h1  {
     display: block;
